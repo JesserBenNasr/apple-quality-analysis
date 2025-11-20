@@ -14,14 +14,26 @@ The notebook and accompanying scripts focus on transparent, reproducible data pr
 - The dataset exhibits multidimensional variation in traits such as size, weight, sweetness, crunchiness, juiciness, ripeness and acidity.
 - PCA reduces dimensionality while retaining most variance, enabling clearer visualization and interpretation of dominant traits.
 - Hierarchical clustering uncovers four coherent groups that do not align cleanly with the original binary labels, which suggests the existing labeling may oversimplify apple quality.
-- The analysis provides a data-driven alternative labeling (cluster profiles) and recommendations for improved quality-control procedures. For detailed explanations, visualizations, and step-by-step analysis, refer to the Jupyter notebook.
+- The analysis provides a data-driven alternative labeling (cluster profiles) and recommendations for improved quality-control procedures. 
+
+## Example Outputs
+
+### Hierarchical Clustering Dendrogram
+
+This visualization shows how apples group together based on their similarities after PCA transformation.
+The dendrogram helps determine the optimal number of clusters by inspecting where large vertical gaps appear between merges.
+![Dendrogram](assets/screenshots/Dendrogram.png)
+
+Additional plots (PCA scatter plots, scree plots, cluster visualizations, and feature loadings) are available in the full analysis notebook: notebooks/Apple_Quality_Analysis.ipynb
+
 
 **Project structure**
 
 - `environment.yaml` — Optional Conda environment specification used to reproduce the analysis environment.
 - `requirements.txt` — Python packages required for pip-based setups.
 - `dataset/apple_quality.csv` — Core dataset used for all analyses.
-- `notebooks/Apple_Quality_Analysis.ipynb` — Main, executable analysis notebook (PCA + CAH) and figures.
+- `notebooks/Apple_Quality_Analysis.ipynb` — Main, executable analysis notebook (PCA + HAC) and figures.
+- `assets/screenshots` — example of plots.
 
 **How this repository treats the existing labeling (critical analysis)**
 
@@ -87,5 +99,6 @@ Contributions are welcome:
 Please open an issue or a pull request describing your proposed change.
 
 **License**
+
 This project is released under the MIT License.  
 You are free to use, modify, and distribute this code with attribution.
