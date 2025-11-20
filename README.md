@@ -22,7 +22,7 @@ The notebook and accompanying scripts focus on transparent, reproducible data pr
 
 This visualization shows how apples group together based on their similarities after PCA transformation.
 The dendrogram helps determine the optimal number of clusters by inspecting where large vertical gaps appear between merges.
-![Dendrogram](assets/screenshots/Dendrogram.png)
+![Dendrogram](assets/screenshots/Dendogram.png)
 
 Additional plots (PCA scatter plots, scree plots, cluster visualizations, and feature loadings) are available in the full analysis notebook: notebooks/Apple_Quality_Analysis.ipynb
 
