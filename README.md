@@ -1,5 +1,5 @@
 
-# Apple Quality Analysis — PCA & Hierarchical Clustering
+# Apple Quality Analysis : PCA & Hierarchical Clustering
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -44,7 +44,7 @@ This work is explicitly a critique of the original binary `Quality` label. Key p
 - When label overlap with clusters is high, supervised classifiers trained on the original labels are likely to be unstable and may reflect labeling noise rather than true sensory differences.
 - The notebook therefore recommends a cluster-informed re-labeling (or multi-class / ordinal labels) and documents cluster profiles (e.g., "Crispy Fresh", "Sour Juicy", "Sweet Premium", "Mature Mild") as interpretable categories.
 
-**Quick start — clone, install, run**
+**Quick start : clone, install and run**
 
 1. Clone this repository (start here):
 
